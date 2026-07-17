@@ -17,16 +17,22 @@ img{
     width: 100%;
 }
 
-
 .common-btn{
     background-color: #1d4ed8FF;
     color: white;
-    border-radius: 10px;
+    border-radius: 7px;
     font-weight: bold;
     font-size: 15px;
-    border: 1px solid #1d4ed8FF; /*boarder e 4pash er kalo border soriye dilam => aesthetic*/
+    border: 1px solid #1d4ed8FF;
     cursor: pointer;
-    padding: 13px 20px;
+    padding: 14px 40px;
+}
+
+.common-btn:hover {
+    background-color: rgb(6, 28, 89);
+}
+nav ul li:hover{
+    background-color: rgb(245, 238, 238);
 }
 
 header img{
@@ -41,10 +47,43 @@ ul{
     align-items: center;
     justify-content: space-between;
 }
-
-
 ul li a{
     text-decoration: none;
     color: #575757;
 
 }
+
+/* Banner start!! */
+.hero-sec{
+    background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+        url("./assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    padding: 120px 20px 100px;
+
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-sec h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.hero-sec p{
+    max-width: 829px;
+    margin: 20px auto 0;
+    font-size: 22px;
+}
+
+.hero-btn{
+    margin-top: auto;
+    padding: 16px 75px;
+    font-size: 16px;
+}
+/* Banner end */
