@@ -90,7 +90,7 @@ ul li a{
 
 /* Cards: Speakers START */
 .speaker-parent{
-    max-width: 1200px;/*same (l-r)gap as navbar*/
+    max-width: 1200px;
     margin: auto;
     padding: 100px 0px;
 }
@@ -137,3 +137,169 @@ ul li a{
     margin-top: 8px;
     color: #64748b;
 }
+
+
+/* Stats section START!! (AI-generated section) */
+.stats-sec{
+    background-color: #0f172a; /* same dark as Pro card */
+    padding: 100px 20px;
+    color: white;
+}
+
+/* container inside => same 1200px line as other sections */
+.stats-parent{
+    max-width: 1200px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.stats-tag{
+    color: #60a5fa;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.stats-left h1{
+    font-size: 52px;
+    line-height: 1.1;
+    margin-top: 15px;
+}
+
+.stats-desc{
+    margin-top: 20px;
+    color: #94a3b8;
+    line-height: 1.7;
+}
+
+.stats-contact{
+    margin-top: 40px;
+}
+
+.stats-contact p{
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+.stats-contact h3{
+    color: #60a5fa;
+    margin-top: 4px;
+}
+
+/* 2x2 stat cards */
+.stats-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.stat-card{
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 40px 20px;
+    text-align: center;
+
+    /* smooth animation on hover */
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.stat-card h2{
+    font-size: 44px;
+    font-weight: 800;
+}
+
+.stat-card p{
+    margin-top: 8px;
+    color: #94a3b8;
+    font-size: 15px;
+}
+
+.stat-card:hover{
+    transform: translateY(-8px);
+    border-color: #2563eb;
+    background-color: #1e293b;
+    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.25); /* blue glow */
+}
+
+.stat-card:hover h2{
+    color: #60a5fa;
+    transition: color 0.4s ease;
+}
+/* Stats section END!! */
+
+
+/* Tracks section START!! AI-generated section: following Assignment requirement)*/
+.tracks-sec{
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.tracks-grid{
+    margin-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+.track-box{
+    border: 1px solid #e5e7eb;
+    border-radius: 14px;
+    padding: 45px 25px;
+    text-align: center;
+    background-color: white;
+
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+
+.track-icon{
+    width: 75px;
+    height: 75px;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #eff6ff;  /* very light blue */
+    color: #2563eb;
+    border-radius: 50%;
+
+    font-size: 28px;
+
+    transition: all 0.4s ease;
+}
+
+.track-box h3{
+    margin-top: 25px;
+    font-size: 21px;
+    color: #0f172a;
+}
+
+.track-box p{
+    margin-top: 12px;
+    font-size: 14px;
+    color: #64748b;
+    line-height: 1.7;
+}
+
+.track-box:hover{
+    transform: translateY(-8px);
+    border-color: #2563eb;
+    box-shadow: 0 15px 30px rgba(37, 99, 235, 0.15);
+}
+
+.track-box:hover .track-icon{
+    background-color: #2563eb;
+    color: white;
+    transform: scale(1.1) rotate(8deg);
+}
+/* Tracks section END!! */
