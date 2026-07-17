@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1200px;
+    margin: auto;
+    padding: 12px 0;
+}
+
+img{
+    width: 100%;
+}
+
+
+.common-btn{
+    background-color: #1d4ed8FF;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #1d4ed8FF; /*boarder e 4pash er kalo border soriye dilam => aesthetic*/
+    cursor: pointer;
+    padding: 13px 20px;
+}
+
+header img{
+    height: 40px;
+    width: auto;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #575757;
+
+}
