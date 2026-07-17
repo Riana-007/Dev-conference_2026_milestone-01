@@ -87,3 +87,53 @@ ul li a{
     font-size: 16px;
 }
 /* Banner end */
+
+/* Cards: Speakers START */
+.speaker-parent{
+    max-width: 1200px;/*same (l-r)gap as navbar*/
+    margin: auto;
+    padding: 100px 0px;
+}
+
+.sec-title{
+    font-size: 50px;
+    text-align: center;
+}
+
+.speakers-card-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.speakers-card{
+    border: 2px solid #e5e7eb;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.speaker-info{
+    text-align: left;
+    padding: 20px;
+}
+
+.speakers-card img{
+    width: 100%;
+    height: 324px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.expertise{
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    color: #2563eb;
+}
+
+.job-role{
+    font-size: 12px;
+    margin-top: 8px;
+    color: #64748b;
+}
